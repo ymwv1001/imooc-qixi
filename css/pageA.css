@@ -1,0 +1,26 @@
+.a_background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.a_background_top{
+	width: 100%;
+	height: 70%;
+	background: #f00;
+
+}
+
+.a_background_middle{
+	width: 100%;
+	height: 10%;
+	background: #0f0;
+
+}
+
+.a_background_bottom{
+	width: 100%;
+	height: 20%;
+	background: #00f;
+
+}

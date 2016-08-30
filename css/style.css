@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style-type: none;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+
+#content{
+	width    : 100%;
+    height   : 100%;
+    /*top      : 20%;*/
+    /*left     : 20%;*/
+    overflow : hidden;
+    position : absolute;
+    /*border   : 1px solid #ccc;*/
+}
+
+.content-warp{
+	position: relative;
+	/*width: 300%;
+	height: 100%;*/
+}
+
+.content-warp li{
+	position: relative;	
+			float: left;
+	background: #CAE1FF;
+	color: red;
+	overflow: hidden;
+}
+
+.content-warp li:nth-child(2){
+	background: #9bcd9b;
+}
+.content-warp li:nth-child(3){
+	background: yellow;
+	
+}
+
+.btn{
+	position: absolute;
+	bottom: 0;
+}
